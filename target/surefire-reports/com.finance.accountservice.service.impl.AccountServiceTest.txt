@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.finance.accountservice.service.impl.AccountServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.464 s <<< FAILURE! -- in com.finance.accountservice.service.impl.AccountServiceTest
+com.finance.accountservice.service.impl.AccountServiceTest.createAccount_With_intitalCredit -- Time elapsed: 1.303 s <<< ERROR!
+ServiceException(message=Error occured while creating account!, errorCode=500 INTERNAL_SERVER_ERROR)
+	at com.finance.accountservice.service.impl.AccountServiceImpl.createAccount(AccountServiceImpl.java:76)
+	at com.finance.accountservice.service.impl.AccountServiceTest.createAccount_With_intitalCredit(AccountServiceTest.java:62)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
